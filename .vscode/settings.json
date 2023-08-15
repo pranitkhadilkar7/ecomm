@@ -1,6 +1,7 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "prettier.semi": false,
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
