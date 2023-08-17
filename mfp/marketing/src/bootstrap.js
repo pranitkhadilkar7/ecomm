@@ -1,15 +1,14 @@
 import React from "react"
 import ReactDom from "react-dom"
 
-console.log("Hi There")
+import App from "./App"
 
 export const mount = (el) => {
-  ReactDom.render(<h1>Hi there!!</h1>, el)
+  ReactDom.render(<App />, el)
 }
 
 if (process.env.NODE_ENV === "development") {
   const devRoot = document.querySelector("#_marketing-dev-root")
-  console.log("devRoot", devRoot)
   if (devRoot) {
     mount(devRoot)
   }
